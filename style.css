@@ -54,7 +54,7 @@ input {
     background-color: rgba(201, 201, 159, 0.3);
     border-radius: 25px;
     margin-bottom: 0px;
-    margin-top: 50px;
+    margin-top: 10px;
     margin-left: 35px;
     margin-right: 35px;
 }
@@ -75,5 +75,29 @@ input {
 
 .main-body{
     margin-top: 225px;
+}
+
+footer {
+    position: fixed;
+    height: 50px;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: red;
+    display: inline-block;
+}
+
+.footer-list{
+    list-style-type: none;
+    display: inline-block;
+}
+
+.footer-info{
+    font-size: 17px;
+    font-family: monospace !important;
+}
+
+.address{
+    margin
 }
 
